@@ -26,9 +26,9 @@ public class MainTest {
 
     @BeforeEach
     void setUp() {
-        bread = new Bread("Test", 10, "Test Bread");
-        chocolate = new Chocolate("Test", 10, "Test Chocolate");
-        coke = new Coke("Test", 10, "Test Coke");
+        bread = new Bread("Test", 10, "Test Bread","FVFV");
+        chocolate = new Chocolate("Test", 10, "Test Chocolate",12.5);
+        coke = new Coke("Test", 10, "Test Coke",true);
         troll = new Troll("Shrek", 1000, 100);
     }
 
